@@ -1,5 +1,6 @@
 FROM quay.io/lyfe00011/md:beta
-RUN git clone https://github.com/lyfe00011/whatsapp-bot-md.git /root/LyFE/
-WORKDIR /root/LyFE/
+RUN git clone https://github.com/Prince-luck/whatsapp-bot-md.git /root/WOLF/
+WORKDIR /root/WOLF/
 RUN yarn install
+npm ls @whiskeysockets/baileys
 CMD ["npm", "start"]
